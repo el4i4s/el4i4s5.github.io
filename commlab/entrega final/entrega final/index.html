@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EL ARO</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1><u>EL ARO</u></h1>
+    <h3>Elías Seitz</h3>
+    <div class="contenido">
+      <img id="mapa" src="imagenes/mapa.jpeg" alt="">
+      <p id="pie1">Avenida San Miguel 3696, Talca, Maule.</p>
+    </div>
+      <br>
+      <div class="contenido">
+        <p style="text-align: left;"><img id="emp3d" src="imagenes/emp3d.jpeg" alt=""></p>
+        <p>
+          A través del análisis del entorno y de los elementos que componen el emplazamiento, el cual, está situado en un punto medio entre 3 universidades, las cuales entre estas se diferencian en las áreas de enseñanza que imparten y en como estas se relacionan con la ciudad.
+        </p>
+        <br>
+        <p>
+          Dicho esto, la Universidad Católica del Maule interactúa de una manera más abierta con la ciudad, a través de sus parques que colindan con la calle y la ausencia de contenciones que eviten la entrada de gente. En tanto la Universidad de Talca y la INACAP son mucho más cerradas a su entorno.
+        </p>
+        <br>
+        <p>
+          Tomando en cuenta esto, los 3 establecimientos están situados lejos de la zona comercial, lo cual representa una gran dificultad a los estudiantes para acceder a servicios, debido a las distancias que han de recorrer, además de carecer de espacios de relación en común, donde los alumnos y personal empleado de estas, puedan contar con un espacio de ocio.
+        </p>
+        <br>
+        <p>
+          Aunado a lo anteriormente mencionado, ninguna de estas universidades cuenta con residencias universitarias, además, esta zona es conocida por los altos precios de las viviendas, las cuales son poco accesibles para un estudiante universitario promedio.
+        </p>
+        <br><br><br><br><br><br>
+      </div>
+      <br>
+      <div class="contenido">
+        <p><img id="distr" src="imagenes/distr.jpeg" alt=""></p>
+      </div>
+      <br>
+      <div class="contenido">
+        <h1><u>DEMANDA DE LUZ</u></h1>
+        <button type="button" name="2y3" onclick="demanda1()">Segundo y tercer nivel</button>
+        <button type="button" name="4" onclick="demanda2()">Cuarto nivel</button>
+        <img id="demanda" src="imagenes/demanda1.jpeg" alt="">
+        <script type="text/javascript">
+          function demanda1() {
+              document.getElementById('demanda').src="imagenes/demanda1.jpeg";
+          }
+          function demanda2() {
+              document.getElementById('demanda').src="imagenes/demanda2.jpeg";
+          }
+        </script>
+      </div>
+      <br>
+      <div class="contenido">
+        <h1><u>EMPLAZAMIENTO VOLUMETRICO</u></h1>
+        <img id="volumetrico" src="imagenes/volumetrico.jpeg" alt="">
+      </div>
+      <br>
+      <div class="contenido">
+        <h1><u>RELACION CON EL ENTORNO</u></h1>
+         <img id="entorno" src="imagenes/entorno.jpeg" alt="">
+      </div>
+      <br>
+      <div class="contenido">
+        <h1><u>PROGRAMA</u></h1>
+        <img id="programa" src="imagenes/programa.jpeg" alt="">
+      </div>
+      <br>
+      <div class="contenido">
+        <h1><u>VISTAS</u></h1>
+        <button type="button" name="vista exterior" onclick="vista1()">Vista exterior</button>
+        <button type="button" name="vista interior" onclick="vista2()">Vista interior</button>
+        <img id="vista" src="imagenes/vista1.jpeg" alt="">
+        <script type="text/javascript">
+          function vista1() {
+              document.getElementById('vista').src="imagenes/vista1.jpeg";
+          }
+          function vista2() {
+              document.getElementById('vista').src="imagenes/vista2.jpeg";
+          }
+        </script>
+      </div>
+  </body>
+</html>
